@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "big-query-cdc-terraform"
+version = "0.1.0"
+description = ""
+authors = ["nani1149 <nani1149@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+apache-airflow = "^2.10.2"
+google-cloud-bigquery-storage = "2.26"
+google-cloud-bigquery = "3.25.0"
+
+[tool.poetry.group.dev.dependencies]
+google-cloud-bigquery-storage = "2.26.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

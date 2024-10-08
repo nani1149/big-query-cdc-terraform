@@ -1,0 +1,24 @@
+[
+ {
+  "Customer_ID": 1,
+  "Customer_Enrollment_Date": 19301,
+  "Customer_Name": "Good_Twin_Nick",
+  "Customer_Address": "1600 Amphitheatre Pkwy, Mountain View, CA",
+  "Customer_Tier": "Platinum",
+  "Active_Subscriptions": "{\"Internet_Subscription\":\"Paid\",\"Music_Subscription\":\"Paid\"}",
+  "_CHANGE_TYPE": "UPSERT"
+ },
+ {
+  "Customer_ID": 2,
+  "_CHANGE_TYPE": "DELETE"
+ },
+ {
+  "Customer_ID": 10,
+  "Customer_Enrollment_Date": 19410,
+  "Customer_Name": "Melody",
+  "Customer_Address": "345 Spear St, San Francisco, CA",
+  "Customer_Tier": "Commercial",
+  "Active_Subscriptions": "{\"Music_Subscription\":\"Free\"}",
+  "_CHANGE_TYPE": "UPSERT"
+ }
+]

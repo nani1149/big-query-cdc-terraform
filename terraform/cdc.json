@@ -1,0 +1,9 @@
+[
+    {"name": "Customer_ID", "type": "INT64", "mode": "REQUIRED"},
+    {"name": "Customer_Enrollment_Date", "type": "DATE", "mode": "REQUIRED"},
+    {"name": "Customer_Name", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "Customer_Address", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "Customer_Tier", "type": "STRING", "mode": "REQUIRED"},
+    {"name": "Active_Subscriptions", "type": "JSON", "mode": "REQUIRED"}
+  
+]
