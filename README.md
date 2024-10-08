@@ -1,1 +1,1 @@
-# big-query-cdc-terraform
+# bigquery-cdc-terraform
